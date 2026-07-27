@@ -184,8 +184,8 @@ catalogs:
       specifier: 0.10.7
       version: 0.10.7
     '@types/node':
-      specifier: 22.20.0
-      version: 22.20.0
+      specifier: 22.20.1
+      version: 22.20.1
     '@types/react':
       specifier: 18.3.31
       version: 18.3.31
@@ -481,8 +481,6 @@ overrides:
 
 packageExtensionsChecksum: sha256-gFsvptlcVXY90ntXWh9ANUP1/LYyeqXjWoDGw6BCfOY=
 
-pnpmfileChecksum: sha256-Ql0UP36A/aSGPgCeRfBqGbTHOVB+Rs4TPOe+11tcwYo=
-
 importers:
 
   .:
@@ -707,7 +705,7 @@ importers:
         version: link:../../configs/eslint
       '@tailwindcss/vite':
         specifier: 'catalog:'
-        version: 4.2.2(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.2.2(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       '@tanstack/react-query':
         specifier: 'catalog:'
         version: 5.101.2(react@18.3.1)
@@ -722,7 +720,7 @@ importers:
         version: link:../../packages/testing/test-data
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@types/papaparse':
         specifier: 5.5.2
         version: 5.5.2
@@ -743,10 +741,10 @@ importers:
         version: typescript@7.0.2
       '@vitejs/plugin-react':
         specifier: 'catalog:'
-        version: 6.0.3(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 6.0.3(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       '@vitest/browser-playwright':
         specifier: 'catalog:'
-        version: 4.1.9(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(playwright@1.61.1)(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)
+        version: 4.1.9(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(playwright@1.61.1)(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)
       eslint:
         specifier: 'catalog:'
         version: 9.39.4(jiti@2.7.0)(supports-color@10.2.2)
@@ -773,13 +771,13 @@ importers:
         version: 17.7.0
       jest-extended:
         specifier: 7.0.0
-        version: 7.0.0(@typescript/typescript6@6.0.2)(jest@29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2))
+        version: 7.0.0(@typescript/typescript6@6.0.2)(jest@29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2))
       jsdom:
         specifier: 'catalog:'
         version: 29.1.1(@noble/hashes@1.8.0)
       msw:
         specifier: 'catalog:'
-        version: 2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2)
+        version: 2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2)
       sirv:
         specifier: 3.0.2
         version: 3.0.2
@@ -794,10 +792,10 @@ importers:
         version: 8.62.1(@typescript/typescript6@6.0.2)(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       vite:
         specifier: 'catalog:'
-        version: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+        version: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       vitest-browser-react:
         specifier: 'catalog:'
         version: 2.2.0(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@4.1.9)
@@ -1040,7 +1038,7 @@ importers:
         version: link:../shade
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@types/react':
         specifier: 'catalog:'
         version: 18.3.31
@@ -1073,10 +1071,10 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vite:
         specifier: 'catalog:'
-        version: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+        version: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   apps/announcement-bar:
     dependencies:
@@ -1846,13 +1844,13 @@ importers:
         version: link:../../configs/eslint-react
       '@storybook/addon-docs':
         specifier: 'catalog:'
-        version: 10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
+        version: 10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
       '@storybook/addon-links':
         specifier: 'catalog:'
         version: 10.4.6(@types/react@18.3.31)(react@18.3.1)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@storybook/react-vite':
         specifier: 'catalog:'
-        version: 10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(@typescript/typescript6@6.0.2)(esbuild@0.28.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(supports-color@10.2.2)(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
+        version: 10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(@typescript/typescript6@6.0.2)(esbuild@0.28.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(supports-color@10.2.2)(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
       '@tailwindcss/postcss':
         specifier: 'catalog:'
         version: 4.2.2
@@ -1861,13 +1859,13 @@ importers:
         version: 14.3.1(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
       '@vitejs/plugin-react':
         specifier: 'catalog:'
-        version: 6.0.3(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 6.0.3(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       '@vitest/coverage-v8':
         specifier: 'catalog:'
         version: 4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9)
@@ -1906,13 +1904,13 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vite:
         specifier: 'catalog:'
-        version: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+        version: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
       vite-plugin-svgr:
         specifier: 'catalog:'
-        version: 4.5.0(@typescript/typescript6@6.0.2)(rollup@4.62.2)(supports-color@10.2.2)(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.5.0(@typescript/typescript6@6.0.2)(rollup@4.62.2)(supports-color@10.2.2)(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   apps/signup-form:
     dependencies:
@@ -2231,7 +2229,7 @@ importers:
         version: 2.3.2(supports-color@10.2.2)
       '@tryghost/brute-knex':
         specifier: 'catalog:'
-        version: 3.2.1(better-sqlite3@12.11.1)(express@4.22.2(supports-color@10.2.2))(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 3.2.1(better-sqlite3@12.11.1)(express@4.22.2(supports-color@10.2.2))(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
       '@tryghost/color-utils':
         specifier: 'catalog:'
         version: 0.2.19
@@ -2270,7 +2268,7 @@ importers:
         version: link:../../packages/i18n
       '@tryghost/image-transform':
         specifier: 1.4.17
-        version: 1.4.17(@types/node@22.20.0)
+        version: 1.4.17(@types/node@22.20.1)
       '@tryghost/job-manager':
         specifier: 1.0.9
         version: 1.0.9(supports-color@10.2.2)
@@ -2372,10 +2370,10 @@ importers:
         version: 1.20.5(supports-color@10.2.2)
       bookshelf:
         specifier: 1.2.0
-        version: 1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2))
+        version: 1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2))
       bookshelf-relations:
         specifier: 2.8.0
-        version: 2.8.0(bookshelf@1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)))(supports-color@10.2.2)
+        version: 2.8.0(bookshelf@1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)))(supports-color@10.2.2)
       bson-objectid:
         specifier: 'catalog:'
         version: 2.0.4
@@ -2531,10 +2529,10 @@ importers:
         version: 1.0.4
       knex:
         specifier: 2.4.2
-        version: 2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
       knex-migrator:
         specifier: 'catalog:'
-        version: 5.4.1(@types/node@22.20.0)(bluebird@3.7.2)(supports-color@10.2.2)
+        version: 5.4.1(@types/node@22.20.1)(bluebird@3.7.2)(supports-color@10.2.2)
       leaky-bucket:
         specifier: 2.2.0
         version: 2.2.0
@@ -2594,7 +2592,7 @@ importers:
         version: 2.2.0
       mysql2:
         specifier: 3.22.5
-        version: 3.22.5(@types/node@22.20.0)
+        version: 3.22.5(@types/node@22.20.1)
       nconf:
         specifier: 0.13.0
         version: 0.13.0
@@ -2639,7 +2637,7 @@ importers:
         version: 7.8.5
       sharp:
         specifier: 0.35.3
-        version: 0.35.3(@types/node@22.20.0)
+        version: 0.35.3(@types/node@22.20.1)
       simple-dom:
         specifier: 1.4.0
         version: 1.4.0
@@ -2685,7 +2683,7 @@ importers:
         version: 2.1.0
       '@types/bookshelf':
         specifier: 1.2.9
-        version: 1.2.9(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 1.2.9(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
       '@types/common-tags':
         specifier: 1.8.4
         version: 1.8.4
@@ -2718,7 +2716,7 @@ importers:
         version: 0.10.7
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@types/node-fetch':
         specifier: 2.6.13
         version: 2.6.13
@@ -2781,10 +2779,10 @@ importers:
         version: 17.7.0
       html-validate:
         specifier: 11.5.5
-        version: 11.5.5(@jest/globals@29.7.0(supports-color@10.2.2))(@vitest/expect@4.1.9)(jest-snapshot@30.3.0(supports-color@10.2.2))(jest@29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2))(vitest@4.1.9)
+        version: 11.5.5(@jest/globals@29.7.0(supports-color@10.2.2))(@vitest/expect@4.1.9)(jest-snapshot@30.3.0(supports-color@10.2.2))(jest@29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2))(vitest@4.1.9)
       inquirer:
         specifier: 8.2.7
-        version: 8.2.7(@types/node@22.20.0)
+        version: 8.2.7(@types/node@22.20.1)
       jwk-to-pem:
         specifier: 2.0.7
         version: 2.0.7
@@ -2832,7 +2830,7 @@ importers:
         version: 13.12.0
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
     optionalDependencies:
       better-sqlite3:
         specifier: 'catalog:'
@@ -2845,7 +2843,7 @@ importers:
         version: 9.39.4
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -2866,7 +2864,7 @@ importers:
         version: 8.62.1(@typescript/typescript6@6.0.2)(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   koenig/kg-clean-basic-html:
     devDependencies:
@@ -2878,7 +2876,7 @@ importers:
         version: 28.0.3
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -2899,7 +2897,7 @@ importers:
         version: 8.62.1(@typescript/typescript6@6.0.2)(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   koenig/kg-converters:
     devDependencies:
@@ -2908,7 +2906,7 @@ importers:
         version: 9.39.4
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -2926,7 +2924,7 @@ importers:
         version: 8.62.1(@typescript/typescript6@6.0.2)(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   koenig/kg-default-cards:
     dependencies:
@@ -2960,7 +2958,7 @@ importers:
         version: 28.0.3
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -2984,7 +2982,7 @@ importers:
         version: 8.62.1(@typescript/typescript6@6.0.2)(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   koenig/kg-default-nodes:
     dependencies:
@@ -3054,7 +3052,7 @@ importers:
         version: 3.7.2
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -3075,7 +3073,7 @@ importers:
         version: 8.62.1(@typescript/typescript6@6.0.2)(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   koenig/kg-default-transforms:
     dependencies:
@@ -3280,7 +3278,7 @@ importers:
         version: 14.1.2
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@types/semver':
         specifier: 7.7.1
         version: 7.7.1
@@ -3301,7 +3299,7 @@ importers:
         version: 8.62.1(@typescript/typescript6@6.0.2)(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   koenig/kg-simplemde:
     dependencies:
@@ -3405,7 +3403,7 @@ importers:
         version: 9.39.4
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@types/semver':
         specifier: 7.7.1
         version: 7.7.1
@@ -3426,7 +3424,7 @@ importers:
         version: 8.62.1(@typescript/typescript6@6.0.2)(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   koenig/koenig-lexical:
     devDependencies:
@@ -3720,7 +3718,7 @@ importers:
         version: link:../../../configs/vitest
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -3735,7 +3733,7 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   packages/adapters/redirects-base:
     devDependencies:
@@ -3750,7 +3748,7 @@ importers:
         version: link:../../../configs/vitest
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -3765,7 +3763,7 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   packages/adapters/route-settings-base:
     devDependencies:
@@ -3780,7 +3778,7 @@ importers:
         version: link:../../../configs/vitest
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -3795,7 +3793,7 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   packages/adapters/scheduling-base:
     dependencies:
@@ -3814,7 +3812,7 @@ importers:
         version: link:../../../configs/vitest
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@types/sinon':
         specifier: 'catalog:'
         version: 22.0.0
@@ -3835,7 +3833,7 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   packages/adapters/sso-base:
     dependencies:
@@ -3857,7 +3855,7 @@ importers:
         version: 4.17.25
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -3872,7 +3870,7 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   packages/adapters/storage-base:
     dependencies:
@@ -3894,7 +3892,7 @@ importers:
         version: 4.17.25
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -3909,7 +3907,7 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   packages/admin-api-schema:
     dependencies:
@@ -3934,7 +3932,7 @@ importers:
         version: link:../../configs/vitest
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -3949,7 +3947,7 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   packages/custom-field-types:
     dependencies:
@@ -3968,7 +3966,7 @@ importers:
         version: link:../../configs/vitest
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -3983,7 +3981,7 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   packages/i18n:
     dependencies:
@@ -4033,7 +4031,7 @@ importers:
         version: link:../../configs/vitest
       '@types/node':
         specifier: 'catalog:'
-        version: 22.20.0
+        version: 22.20.1
       '@typescript/native':
         specifier: 'catalog:'
         version: typescript@7.0.2
@@ -4048,7 +4046,7 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vitest:
         specifier: 'catalog:'
-        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+        version: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   packages/testing/test-data:
     dependencies:
@@ -9472,8 +9470,8 @@ packages:
   '@types/node@18.19.130':
     resolution: {integrity: sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg==}
 
-  '@types/node@22.20.0':
-    resolution: {integrity: sha512-QWlFW2wf3nTjC13/DqRnBpR4ZO36VJH/JVBkA/vcnmbTBNQIlnObqyqZE1tUR7+Ni23Lda8R1BxMfbXRpCUx5g==}
+  '@types/node@22.20.1':
+    resolution: {integrity: sha512-EANqOCF9QFyra+4pfxUcX9STKJpCLjMbObVzljIJomAWSnuSIEAvyzEU53GaajbXJEgdh0iEcPL+DGvpUd4k1Q==}
 
   '@types/node@24.13.2':
     resolution: {integrity: sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==}
@@ -25168,12 +25166,12 @@ snapshots:
 
   '@inquirer/ansi@2.0.7': {}
 
-  '@inquirer/confirm@6.1.1(@types/node@22.20.0)':
+  '@inquirer/confirm@6.1.1(@types/node@22.20.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@22.20.0)
-      '@inquirer/type': 4.0.7(@types/node@22.20.0)
+      '@inquirer/core': 11.2.1(@types/node@22.20.1)
+      '@inquirer/type': 4.0.7(@types/node@22.20.1)
     optionalDependencies:
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
 
   '@inquirer/confirm@6.1.1(@types/node@26.0.0)':
     dependencies:
@@ -25182,17 +25180,17 @@ snapshots:
     optionalDependencies:
       '@types/node': 26.0.0
 
-  '@inquirer/core@11.2.1(@types/node@22.20.0)':
+  '@inquirer/core@11.2.1(@types/node@22.20.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
       '@inquirer/figures': 2.0.7
-      '@inquirer/type': 4.0.7(@types/node@22.20.0)
+      '@inquirer/type': 4.0.7(@types/node@22.20.1)
       cli-width: 4.1.0
       fast-wrap-ansi: 0.2.2
       mute-stream: 3.0.0
       signal-exit: 4.1.0
     optionalDependencies:
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
 
   '@inquirer/core@11.2.1(@types/node@26.0.0)':
     dependencies:
@@ -25206,18 +25204,18 @@ snapshots:
     optionalDependencies:
       '@types/node': 26.0.0
 
-  '@inquirer/external-editor@1.0.3(@types/node@22.20.0)':
+  '@inquirer/external-editor@1.0.3(@types/node@22.20.1)':
     dependencies:
       chardet: 2.2.0
       iconv-lite: 0.7.2
     optionalDependencies:
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
 
   '@inquirer/figures@2.0.7': {}
 
-  '@inquirer/type@4.0.7(@types/node@22.20.0)':
+  '@inquirer/type@4.0.7(@types/node@22.20.1)':
     optionalDependencies:
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
 
   '@inquirer/type@4.0.7(@types/node@26.0.0)':
     optionalDependencies:
@@ -25477,11 +25475,11 @@ snapshots:
       '@types/yargs': 17.0.35
       chalk: 4.1.2
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.7.0(@typescript/typescript6@6.0.2)(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.7.0(@typescript/typescript6@6.0.2)(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
     dependencies:
       glob: 13.0.6
       react-docgen-typescript: 2.4.0(@typescript/typescript6@6.0.2)
-      vite: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+      vite: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
     optionalDependencies:
       typescript: '@typescript/typescript6@6.0.2'
 
@@ -27588,10 +27586,10 @@ snapshots:
 
   '@standard-schema/utils@0.3.0': {}
 
-  '@storybook/addon-docs@10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))':
+  '@storybook/addon-docs@10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))':
     dependencies:
       '@mdx-js/react': 3.1.1(@types/react@18.3.31)(react@18.3.1)
-      '@storybook/csf-plugin': 10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
+      '@storybook/csf-plugin': 10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
       '@storybook/icons': 2.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@storybook/react-dom-shim': 10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       react: 18.3.1
@@ -27634,12 +27632,12 @@ snapshots:
       '@types/react': 18.3.31
       react: 18.3.1
 
-  '@storybook/builder-vite@10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))':
+  '@storybook/builder-vite@10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))':
     dependencies:
-      '@storybook/csf-plugin': 10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
+      '@storybook/csf-plugin': 10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
       storybook: 10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       ts-dedent: 2.3.0
-      vite: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+      vite: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
     transitivePeerDependencies:
       - esbuild
       - rollup
@@ -27656,14 +27654,14 @@ snapshots:
       - rollup
       - webpack
 
-  '@storybook/csf-plugin@10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))':
+  '@storybook/csf-plugin@10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))':
     dependencies:
       storybook: 10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       unplugin: 2.3.11
     optionalDependencies:
       esbuild: 0.28.1
       rollup: 4.62.2
-      vite: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+      vite: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
       webpack: 5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3)
 
   '@storybook/csf-plugin@10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@26.0.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))':
@@ -27692,11 +27690,11 @@ snapshots:
       '@types/react': 18.3.31
       '@types/react-dom': 18.3.7(@types/react@18.3.31)
 
-  '@storybook/react-vite@10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(@typescript/typescript6@6.0.2)(esbuild@0.28.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(supports-color@10.2.2)(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))':
+  '@storybook/react-vite@10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(@typescript/typescript6@6.0.2)(esbuild@0.28.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(supports-color@10.2.2)(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.7.0(@typescript/typescript6@6.0.2)(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.7.0(@typescript/typescript6@6.0.2)(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       '@rollup/pluginutils': 5.4.0(rollup@4.62.2)
-      '@storybook/builder-vite': 10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
+      '@storybook/builder-vite': 10.4.6(esbuild@0.28.1)(rollup@4.62.2)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(webpack@5.105.4(@swc/core@1.15.43(@swc/helpers@0.5.23))(clean-css@4.2.4)(cssnano@7.1.9(postcss@8.5.16))(csso@5.0.5)(esbuild@0.28.1)(lightningcss@1.32.0)(postcss@8.5.16)(uglify-js@3.19.3))
       '@storybook/react': 10.4.6(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(@typescript/typescript6@6.0.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(supports-color@10.2.2)
       empathic: 2.0.1
       magic-string: 0.30.21
@@ -27706,7 +27704,7 @@ snapshots:
       resolve: 1.22.12
       storybook: 10.4.6(@testing-library/dom@10.4.1)(@types/react@18.3.31)(prettier@3.9.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       tsconfig-paths: 4.2.0
-      vite: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+      vite: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-dom'
@@ -27996,12 +27994,12 @@ snapshots:
       postcss: 8.5.16
       tailwindcss: 4.2.2
 
-  '@tailwindcss/vite@4.2.2(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
+  '@tailwindcss/vite@4.2.2(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
     dependencies:
       '@tailwindcss/node': 4.2.2
       '@tailwindcss/oxide': 4.2.2
       tailwindcss: 4.2.2
-      vite: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+      vite: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
 
   '@tanstack/query-core@5.101.2': {}
 
@@ -28314,10 +28312,10 @@ snapshots:
 
   '@tryghost/bookshelf-transaction-events@2.3.2': {}
 
-  '@tryghost/brute-knex@3.2.1(better-sqlite3@12.11.1)(express@4.22.2(supports-color@10.2.2))(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)':
+  '@tryghost/brute-knex@3.2.1(better-sqlite3@12.11.1)(express@4.22.2(supports-color@10.2.2))(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
       express-brute: 1.0.1(express@4.22.2(supports-color@10.2.2))
-      knex: 2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
+      knex: 2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
     transitivePeerDependencies:
       - better-sqlite3
       - express
@@ -28454,12 +28452,12 @@ snapshots:
       '@tryghost/errors': 3.3.5
       '@tryghost/request': 3.3.5
 
-  '@tryghost/image-transform@1.4.17(@types/node@22.20.0)':
+  '@tryghost/image-transform@1.4.17(@types/node@22.20.1)':
     dependencies:
       '@tryghost/errors': 3.3.5
       fs-extra: 11.3.6
     optionalDependencies:
-      sharp: 0.35.3(@types/node@22.20.0)
+      sharp: 0.35.3(@types/node@22.20.1)
     transitivePeerDependencies:
       - '@types/node'
 
@@ -28868,12 +28866,12 @@ snapshots:
       '@types/connect': 3.4.38
       '@types/node': 26.0.0
 
-  '@types/bookshelf@1.2.9(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)':
+  '@types/bookshelf@1.2.9(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
       '@types/bluebird': 3.5.42
       '@types/create-error': 0.3.33
       '@types/lodash': 4.17.24
-      knex: 0.21.21(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
+      knex: 0.21.21(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
     transitivePeerDependencies:
       - mssql
       - mysql
@@ -29148,7 +29146,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@22.20.0':
+  '@types/node@22.20.1':
     dependencies:
       undici-types: 6.21.0
 
@@ -29623,23 +29621,23 @@ snapshots:
 
   '@ungap/structured-clone@1.3.1': {}
 
-  '@vitejs/plugin-react@6.0.3(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
+  '@vitejs/plugin-react@6.0.3(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+      vite: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
 
   '@vitejs/plugin-react@6.0.3(vite@8.1.3(@types/node@26.0.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
       vite: 8.1.3(@types/node@26.0.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
 
-  '@vitest/browser-playwright@4.1.9(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(playwright@1.61.1)(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)':
+  '@vitest/browser-playwright@4.1.9(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(playwright@1.61.1)(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)':
     dependencies:
-      '@vitest/browser': 4.1.9(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)
-      '@vitest/mocker': 4.1.9(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+      '@vitest/browser': 4.1.9(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)
+      '@vitest/mocker': 4.1.9(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       playwright: 1.61.1
       tinyrainbow: 3.1.0
-      vitest: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+      vitest: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
     transitivePeerDependencies:
       - bufferutil
       - msw
@@ -29688,16 +29686,16 @@ snapshots:
       - vite
     optional: true
 
-  '@vitest/browser@4.1.9(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)':
+  '@vitest/browser@4.1.9(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)':
     dependencies:
       '@blazediff/core': 1.9.1
-      '@vitest/mocker': 4.1.9(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+      '@vitest/mocker': 4.1.9(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       '@vitest/utils': 4.1.9
       magic-string: 0.30.21
       pngjs: 7.0.0
       sirv: 3.0.2
       tinyrainbow: 3.1.0
-      vitest: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+      vitest: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
@@ -29792,14 +29790,14 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.9(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
+  '@vitest/mocker@4.1.9(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
     dependencies:
       '@vitest/spy': 4.1.9
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      msw: 2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2)
-      vite: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+      msw: 2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2)
+      vite: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
 
   '@vitest/mocker@4.1.9(msw@2.14.6(@types/node@26.0.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@26.0.0)(esbuild@0.28.1)(jiti@1.21.7)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))':
     dependencies:
@@ -31384,22 +31382,22 @@ snapshots:
       fast-safe-stringify: 2.1.1
       individual: 3.0.0
 
-  bookshelf-relations@2.8.0(bookshelf@1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)))(supports-color@10.2.2):
+  bookshelf-relations@2.8.0(bookshelf@1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)))(supports-color@10.2.2):
     dependencies:
       '@tryghost/debug': 0.1.40(supports-color@10.2.2)
       '@tryghost/errors': 3.3.5
       bluebird: 3.7.2
-      bookshelf: 1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2))
+      bookshelf: 1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2))
       lodash: 4.18.1
     transitivePeerDependencies:
       - supports-color
 
-  bookshelf@1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)):
+  bookshelf@1.2.0(knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)):
     dependencies:
       bluebird: 3.7.2
       create-error: 0.3.1
       inflection: 1.13.4
-      knex: 2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
+      knex: 2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
       lodash: 4.18.1
 
   boolbase@1.0.0: {}
@@ -33039,13 +33037,13 @@ snapshots:
       safe-buffer: 5.2.1
       sha.js: 2.4.12
 
-  create-jest@29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(supports-color@10.2.2):
+  create-jest@29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(supports-color@10.2.2):
     dependencies:
       '@jest/types': 29.6.3
       chalk: 4.1.2
       exit: 0.1.2
       graceful-fs: 4.2.11
-      jest-config: 29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(supports-color@10.2.2)
+      jest-config: 29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(supports-color@10.2.2)
       jest-util: 29.7.0
       prompts: 2.4.2
     transitivePeerDependencies:
@@ -36420,10 +36418,6 @@ snapshots:
     dependencies:
       pend: 1.2.0
 
-  fdir@6.5.0(picomatch@4.0.4):
-    optionalDependencies:
-      picomatch: 4.0.4
-
   fdir@6.5.0(picomatch@4.0.5):
     optionalDependencies:
       picomatch: 4.0.5
@@ -37507,7 +37501,7 @@ snapshots:
       minimist: 1.2.8
       selderee: 0.6.0
 
-  html-validate@11.5.5(@jest/globals@29.7.0(supports-color@10.2.2))(@vitest/expect@4.1.9)(jest-snapshot@30.3.0(supports-color@10.2.2))(jest@29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2))(vitest@4.1.9):
+  html-validate@11.5.5(@jest/globals@29.7.0(supports-color@10.2.2))(@vitest/expect@4.1.9)(jest-snapshot@30.3.0(supports-color@10.2.2))(jest@29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2))(vitest@4.1.9):
     dependencies:
       '@html-validate/stylish': 6.0.0
       '@sidvind/better-ajv-errors': 7.0.0(ajv@8.20.0)
@@ -37518,9 +37512,9 @@ snapshots:
     optionalDependencies:
       '@jest/globals': 29.7.0(supports-color@10.2.2)
       '@vitest/expect': 4.1.9
-      jest: 29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)
+      jest: 29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)
       jest-snapshot: 30.3.0(supports-color@10.2.2)
-      vitest: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+      vitest: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
 
   html2canvas-pro@2.2.1:
     dependencies:
@@ -37812,9 +37806,9 @@ snapshots:
       strip-ansi: 6.0.1
       through: 2.3.8
 
-  inquirer@8.2.7(@types/node@22.20.0):
+  inquirer@8.2.7(@types/node@22.20.1):
     dependencies:
-      '@inquirer/external-editor': 1.0.3(@types/node@22.20.0)
+      '@inquirer/external-editor': 1.0.3(@types/node@22.20.1)
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       cli-cursor: 3.1.0
@@ -38343,16 +38337,16 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2):
+  jest-cli@29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2):
     dependencies:
       '@jest/core': 29.7.0(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
       chalk: 4.1.2
-      create-jest: 29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(supports-color@10.2.2)
+      create-jest: 29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(supports-color@10.2.2)
       exit: 0.1.2
       import-local: 3.2.0
-      jest-config: 29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(supports-color@10.2.2)
+      jest-config: 29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(supports-color@10.2.2)
       jest-util: 29.7.0
       jest-validate: 29.7.0
       yargs: 17.7.3
@@ -38386,7 +38380,7 @@ snapshots:
       - supports-color
       - ts-node
 
-  jest-config@29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(supports-color@10.2.2):
+  jest-config@29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(supports-color@10.2.2):
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@jest/test-sequencer': 29.7.0
@@ -38411,7 +38405,7 @@ snapshots:
       slash: 3.0.0
       strip-json-comments: 3.1.1
     optionalDependencies:
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -38489,12 +38483,12 @@ snapshots:
       jest-mock: 29.7.0
       jest-util: 29.7.0
 
-  jest-extended@7.0.0(@typescript/typescript6@6.0.2)(jest@29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)):
+  jest-extended@7.0.0(@typescript/typescript6@6.0.2)(jest@29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)):
     dependencies:
       jest-diff: 30.4.1
       typescript: '@typescript/typescript6@6.0.2'
     optionalDependencies:
-      jest: 29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)
+      jest: 29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)
 
   jest-get-type@29.6.3: {}
 
@@ -38524,7 +38518,7 @@ snapshots:
       jest-regex-util: 30.0.1
       jest-util: 30.3.0
       jest-worker: 30.3.0
-      picomatch: 4.0.4
+      picomatch: 4.0.5
       walker: 1.0.8
     optionalDependencies:
       fsevents: 2.3.3
@@ -38567,7 +38561,7 @@ snapshots:
       '@types/stack-utils': 2.0.3
       chalk: 4.1.2
       graceful-fs: 4.2.11
-      picomatch: 4.0.4
+      picomatch: 4.0.5
       pretty-format: 30.3.0
       slash: 3.0.0
       stack-utils: 2.0.6
@@ -38731,7 +38725,7 @@ snapshots:
       chalk: 4.1.2
       ci-info: 4.4.0
       graceful-fs: 4.2.11
-      picomatch: 4.0.4
+      picomatch: 4.0.5
 
   jest-validate@29.7.0:
     dependencies:
@@ -38774,12 +38768,12 @@ snapshots:
       merge-stream: 2.0.0
       supports-color: 10.2.2
 
-  jest@29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2):
+  jest@29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2):
     dependencies:
       '@jest/core': 29.7.0(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)
       '@jest/types': 29.6.3
       import-local: 3.2.0
-      jest-cli: 29.7.0(@types/node@22.20.0)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)
+      jest-cli: 29.7.0(@types/node@22.20.1)(babel-plugin-macros@3.1.0)(node-notifier@10.0.1)(supports-color@10.2.2)
     optionalDependencies:
       node-notifier: 10.0.1
     transitivePeerDependencies:
@@ -39074,7 +39068,7 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  knex-migrator@5.4.1(@types/node@22.20.0)(bluebird@3.7.2)(supports-color@10.2.2):
+  knex-migrator@5.4.1(@types/node@22.20.1)(bluebird@3.7.2)(supports-color@10.2.2):
     dependencies:
       '@tryghost/database-info': 0.3.35
       '@tryghost/errors': 3.3.5
@@ -39083,10 +39077,10 @@ snapshots:
       commander: 5.1.0
       compare-ver: 2.0.2
       debug: 4.4.3(supports-color@10.2.2)
-      knex: 2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
+      knex: 2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2)
       lodash: 4.18.1
       moment: 2.30.1
-      mysql2: 3.22.5(@types/node@22.20.0)
+      mysql2: 3.22.5(@types/node@22.20.1)
       nconf: 0.13.0
       resolve: 1.22.12
     optionalDependencies:
@@ -39102,7 +39096,7 @@ snapshots:
       - supports-color
       - tedious
 
-  knex@0.21.21(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2):
+  knex@0.21.21(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
       colorette: 1.2.1
       commander: 6.2.1
@@ -39117,12 +39111,12 @@ snapshots:
       tildify: 2.0.0
       v8flags: 3.2.0
     optionalDependencies:
-      mysql2: 3.22.5(@types/node@22.20.0)
+      mysql2: 3.22.5(@types/node@22.20.1)
       sqlite3: 5.1.7(bluebird@3.7.2)(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
 
-  knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.0))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2):
+  knex@2.4.2(better-sqlite3@12.11.1)(mysql2@3.22.5(@types/node@22.20.1))(sqlite3@5.1.7(bluebird@3.7.2)(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
       colorette: 2.0.19
       commander: 9.5.0
@@ -39140,7 +39134,7 @@ snapshots:
       tildify: 2.0.0
     optionalDependencies:
       better-sqlite3: 12.11.1
-      mysql2: 3.22.5(@types/node@22.20.0)
+      mysql2: 3.22.5(@types/node@22.20.1)
       sqlite3: 5.1.7(bluebird@3.7.2)(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
@@ -40663,9 +40657,9 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2):
+  msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2):
     dependencies:
-      '@inquirer/confirm': 6.1.1(@types/node@22.20.0)
+      '@inquirer/confirm': 6.1.1(@types/node@22.20.1)
       '@mswjs/interceptors': 0.41.9
       '@open-draft/deferred-promise': 3.0.0
       '@types/statuses': 2.0.6
@@ -40763,9 +40757,9 @@ snapshots:
 
   mylas@2.1.14: {}
 
-  mysql2@3.22.5(@types/node@22.20.0):
+  mysql2@3.22.5(@types/node@22.20.1):
     dependencies:
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
       aws-ssl-profiles: 1.1.2
       denque: 2.1.0
       generate-function: 2.3.1
@@ -44043,7 +44037,7 @@ snapshots:
       safe-buffer: 5.2.1
       to-buffer: 1.2.2
 
-  sharp@0.35.3(@types/node@22.20.0):
+  sharp@0.35.3(@types/node@22.20.1):
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
@@ -44074,7 +44068,7 @@ snapshots:
       '@img/sharp-win32-arm64': 0.35.3
       '@img/sharp-win32-ia32': 0.35.3
       '@img/sharp-win32-x64': 0.35.3
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
 
   shebang-command@1.2.0:
     dependencies:
@@ -45216,8 +45210,8 @@ snapshots:
 
   tinyglobby@0.2.17:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.4)
-      picomatch: 4.0.4
+      fdir: 6.5.0(picomatch@4.0.5)
+      picomatch: 4.0.5
 
   tinyrainbow@2.0.0: {}
 
@@ -45993,12 +45987,12 @@ snapshots:
       - typescript
       - webpack
 
-  vite-plugin-svgr@4.5.0(@typescript/typescript6@6.0.2)(rollup@4.62.2)(supports-color@10.2.2)(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)):
+  vite-plugin-svgr@4.5.0(@typescript/typescript6@6.0.2)(rollup@4.62.2)(supports-color@10.2.2)(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)):
     dependencies:
       '@rollup/pluginutils': 5.4.0(rollup@4.62.2)
       '@svgr/core': 8.1.0(@typescript/typescript6@6.0.2)(supports-color@10.2.2)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(@typescript/typescript6@6.0.2)(supports-color@10.2.2))(supports-color@10.2.2)
-      vite: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+      vite: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -46037,15 +46031,15 @@ snapshots:
       - supports-color
       - typescript
 
-  vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0):
+  vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0):
     dependencies:
       lightningcss: 1.32.0
-      picomatch: 4.0.4
+      picomatch: 4.0.5
       postcss: 8.5.16
       rolldown: 1.1.4
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
       esbuild: 0.28.1
       fsevents: 2.3.3
       jiti: 2.7.0
@@ -46056,7 +46050,7 @@ snapshots:
   vite@8.1.3(@types/node@26.0.0)(esbuild@0.28.1)(jiti@1.21.7)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0):
     dependencies:
       lightningcss: 1.32.0
-      picomatch: 4.0.4
+      picomatch: 4.0.5
       postcss: 8.5.16
       rolldown: 1.1.4
       tinyglobby: 0.2.17
@@ -46072,7 +46066,7 @@ snapshots:
   vite@8.1.3(@types/node@26.0.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0):
     dependencies:
       lightningcss: 1.32.0
-      picomatch: 4.0.4
+      picomatch: 4.0.5
       postcss: 8.5.16
       rolldown: 1.1.4
       tinyglobby: 0.2.17
@@ -46089,15 +46083,15 @@ snapshots:
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      vitest: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+      vitest: 4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
     optionalDependencies:
       '@types/react': 18.3.31
       '@types/react-dom': 18.3.7(@types/react@18.3.31)
 
-  vitest@4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.0)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)):
+  vitest@4.1.9(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/browser-playwright@4.1.9)(@vitest/coverage-v8@4.1.9)(@vitest/ui@4.1.9)(jsdom@29.1.1(@noble/hashes@1.8.0))(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)):
     dependencies:
       '@vitest/expect': 4.1.9
-      '@vitest/mocker': 4.1.9(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
+      '@vitest/mocker': 4.1.9(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))
       '@vitest/pretty-format': 4.1.9
       '@vitest/runner': 4.1.9
       '@vitest/snapshot': 4.1.9
@@ -46114,12 +46108,12 @@ snapshots:
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.0
-      vite: 8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
+      vite: 8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
-      '@types/node': 22.20.0
-      '@vitest/browser-playwright': 4.1.9(msw@2.14.6(@types/node@22.20.0)(@typescript/typescript6@6.0.2))(playwright@1.61.1)(vite@8.1.3(@types/node@22.20.0)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)
+      '@types/node': 22.20.1
+      '@vitest/browser-playwright': 4.1.9(msw@2.14.6(@types/node@22.20.1)(@typescript/typescript6@6.0.2))(playwright@1.61.1)(vite@8.1.3(@types/node@22.20.1)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.0)(yaml@2.9.0))(vitest@4.1.9)
       '@vitest/coverage-v8': 4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9)
       '@vitest/ui': 4.1.9(vitest@4.1.9)
       jsdom: 29.1.1(@noble/hashes@1.8.0)
