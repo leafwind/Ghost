@@ -182,11 +182,13 @@ function expandCollection(collection: CollectionConfig): Record<string, any> {
 }
 
 /**
- * Converts a RouteSettings domain model into the legacy expanded format
- * that routerManager.start() expects.
+ * Converts a RouteSettings domain model into the legacy path-keyed map format.
  *
- * This is a temporary adapter — it gets removed once RouterManager is
- * refactored to consume the domain model directly (HKG-1895/HKG-1898).
+ * This shape is retained only to keep `routes_hash` byte-stable: the hash is
+ * md5(JSON.stringify(...)) over this exact output, and the known default hash
+ * (`3d180d52…`) was computed from it. `getCurrentHash()` is its sole caller.
+ * It gets removed together with the rest of the bridge in HKG-1898, when the
+ * hash moves onto the domain model.
  */
 export function expandRouteSettings(settings: RouteSettings): {routes: Record<string, any>; collections: Record<string, any>; taxonomies: Record<string, string>} {
     const routes: Record<string, any> = {};
@@ -207,4 +209,130 @@ export function expandRouteSettings(settings: RouteSettings): {routes: Record<st
     }
 
     return {routes, collections, taxonomies};
+}
+
+/**
+ * Router-facing shapes. These mirror the domain model (arrays, `type`,
+ * `contentType`, `{slug}`→`:slug` permalinks) but still carry the legacy
+ * `data` expansion (`{query, router}`) and `:slug` notation that the routers,
+ * controllers and URL service consume today. Later cleanup PRs peel those two
+ * conversions off into the permalink/API adapters (HKG-1896/HKG-1897).
+ */
+interface RouterRoute {
+    path: string;
+    type: 'channel' | 'template';
+    templates: string[];
+    data?: ExpandedData;
+    contentType?: string;
+    filter?: string;
+    order?: string;
+    limit?: number | 'all';
+    rss?: boolean;
+}
+
+interface RouterCollection {
+    path: string;
+    permalink: string;
+    templates: string[];
+    data?: ExpandedData;
+    filter?: string;
+    order?: string;
+    limit?: number | 'all';
+    rss?: boolean;
+}
+
+interface RouterTaxonomy {
+    key: string;
+    permalink: string;
+}
+
+interface RouterSettings {
+    routes: RouterRoute[];
+    collections: RouterCollection[];
+    taxonomies: RouterTaxonomy[];
+}
+
+function buildRouterRoute(route: Route): RouterRoute {
+    const result: RouterRoute = {
+        path: route.path,
+        type: route.type,
+        templates: route.templates || []
+    };
+
+    if (route.data !== undefined) {
+        result.data = expandRouteData(route.data);
+    }
+
+    if (route.type === 'channel') {
+        const channel = route as ChannelRoute;
+        if (channel.filter !== undefined) {
+            result.filter = channel.filter;
+        }
+        if (channel.order !== undefined) {
+            result.order = channel.order;
+        }
+        if (channel.limit !== undefined) {
+            result.limit = channel.limit;
+        }
+        if (channel.rss !== undefined) {
+            result.rss = channel.rss;
+        }
+    } else {
+        const template = route as TemplateRoute;
+        if (template.contentType !== undefined) {
+            result.contentType = template.contentType;
+        }
+    }
+
+    return result;
+}
+
+function buildRouterCollection(collection: CollectionConfig): RouterCollection {
+    const result: RouterCollection = {
+        path: collection.path,
+        permalink: convertSlugsToColons(collection.permalink),
+        templates: collection.templates || []
+    };
+
+    if (collection.data !== undefined) {
+        result.data = expandRouteData(collection.data);
+    }
+    if (collection.filter !== undefined) {
+        result.filter = collection.filter;
+    }
+    if (collection.order !== undefined) {
+        result.order = collection.order;
+    }
+    if (collection.limit !== undefined) {
+        result.limit = collection.limit;
+    }
+    if (collection.rss !== undefined) {
+        result.rss = collection.rss;
+    }
+
+    return result;
+}
+
+/**
+ * Converts a RouteSettings domain model into the array shape that
+ * RouterManager.start() iterates. Each route/collection carries its own `path`,
+ * and taxonomies become `{key, permalink}` entries, so the routing layer no
+ * longer reads paths from map keys.
+ *
+ * Temporary adapter: removed in HKG-1898 once the routers consume the domain
+ * model directly.
+ */
+export function buildRouterSettings(settings: RouteSettings): RouterSettings {
+    const taxonomies: RouterTaxonomy[] = [];
+    for (const [key, value] of Object.entries(settings.taxonomies)) {
+        if (value) {
+            taxonomies.push({key, permalink: convertSlugsToColons(value)});
+        }
+    }
+
+    return {
+        routes: settings.routes.map(buildRouterRoute),
+        collections: settings.collections.map(buildRouterCollection),
+        taxonomies
+    };
 }

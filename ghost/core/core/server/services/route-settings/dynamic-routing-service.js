@@ -60,11 +60,17 @@ class DynamicRoutingService {
         this.routerManager.start(settings);
     }
 
-    async loadRouteSettings() {
-        const {expandRouteSettings} = require('./activation-bridge');
-
+    /**
+     * Read the domain model from the store, logging a targeted error before
+     * rethrowing when the stored routes.yaml is invalid. Shared by the router
+     * load path and the routes-hash computation so both surface the same
+     * operator-facing error rather than silently degrading.
+     *
+     * @returns {Promise<import('@tryghost/adapter-base-route-settings').RouteSettings>}
+     */
+    async _loadDomainModel() {
         try {
-            return expandRouteSettings(await this.store.get());
+            return await this.store.get();
         } catch (err) {
             // A stored-content error means the site's routes.yaml is invalid —
             // either it fails validation or it isn't parseable YAML. Log a
@@ -84,12 +90,23 @@ class DynamicRoutingService {
         }
     }
 
+    async loadRouteSettings() {
+        const {buildRouterSettings} = require('./activation-bridge');
+
+        return buildRouterSettings(await this._loadDomainModel());
+    }
+
     getDefaultHash() {
         return DEFAULT_ROUTES_SETTING_HASH;
     }
 
     async getCurrentHash() {
-        const expanded = await this.loadRouteSettings();
+        const {expandRouteSettings} = require('./activation-bridge');
+
+        // The hash is taken over the legacy path-keyed expansion, not the
+        // router-facing arrays, so `routes_hash` stays byte-stable while the
+        // routing layer moves onto the domain model (HKG-1898 revisits this).
+        const expanded = expandRouteSettings(await this._loadDomainModel());
 
         return crypto.createHash('md5')
             .update(JSON.stringify(expanded), 'binary')

@@ -7,6 +7,7 @@ import {afterEach, beforeEach, describe, it} from 'vitest';
 
 import parseYaml from '../../../../../core/server/services/route-settings/yaml-parser';
 import {parseRouteSettings} from '../../../../../core/server/services/route-settings/route-settings-parser';
+import {expandRouteSettings} from '../../../../../core/server/services/route-settings/activation-bridge';
 import {InMemoryStore} from '../../adapters/route-settings/helpers/in-memory-store';
 
 const DynamicRoutingService = require('../../../../../core/server/services/route-settings/dynamic-routing-service');
@@ -49,14 +50,14 @@ describe('UNIT: DynamicRoutingService (store-backed)', function () {
         assert.equal(await service.download(), CUSTOM_YAML);
     });
 
-    it('loadRouteSettings expands the domain model into the router format', async function () {
+    it('loadRouteSettings expands the domain model into the router array format', async function () {
         await store.replace(fromYaml(CUSTOM_YAML));
 
         const expanded = await service.loadRouteSettings();
 
-        assert.deepEqual(expanded.routes['/about/'], {templates: ['about']});
-        assert.equal(expanded.collections['/'].permalink, '/:slug/');
-        assert.equal(expanded.taxonomies.tag, '/tag/:slug/');
+        assert.deepEqual(expanded.routes, [{path: '/about/', type: 'template', templates: ['about']}]);
+        assert.deepEqual(expanded.collections, [{path: '/', permalink: '/:slug/', templates: ['index']}]);
+        assert.deepEqual(expanded.taxonomies, [{key: 'tag', permalink: '/tag/:slug/'}]);
     });
 
     it('getCurrentHash over the bundled defaults matches the known default hash', async function () {
@@ -69,11 +70,11 @@ describe('UNIT: DynamicRoutingService (store-backed)', function () {
         assert.equal(await service.getCurrentHash(), service.getDefaultHash());
     });
 
-    it('getCurrentHash matches md5 of the stringified expansion', async function () {
+    it('getCurrentHash matches md5 of the legacy expanded map, not the router arrays', async function () {
         await store.replace(fromYaml(CUSTOM_YAML));
 
         const expected = crypto.createHash('md5')
-            .update(JSON.stringify(await service.loadRouteSettings()), 'binary')
+            .update(JSON.stringify(expandRouteSettings(fromYaml(CUSTOM_YAML))), 'binary')
             .digest('hex');
 
         assert.equal(await service.getCurrentHash(), expected);
@@ -126,7 +127,7 @@ describe('UNIT: DynamicRoutingService (store-backed)', function () {
 
             const settings = await service.loadRouteSettings();
 
-            assert.deepEqual(settings.routes['/about/'], {templates: ['about']});
+            assert.deepEqual(settings.routes, [{path: '/about/', type: 'template', templates: ['about']}]);
             assert.equal(errorStub.called, false);
         });
     });
