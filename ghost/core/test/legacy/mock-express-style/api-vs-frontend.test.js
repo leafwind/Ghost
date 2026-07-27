@@ -13,11 +13,21 @@ const themeEngine = require('../../../core/frontend/services/theme-engine');
 // `loadRouteSettings` returns the router-facing array shape: each route and
 // collection carries its own `path`, and taxonomies are `{key, permalink}`
 // entries. These fixtures are authored as the legacy path-keyed maps, so reshape
-// them in one place rather than rewriting every stub.
+// them in one place rather than rewriting every stub. The shape mirrors what
+// buildRouterSettings() really emits — routes always carry `type` (defaulting to
+// `template`) and a `templates` array, and a string value is the shorthand form.
 function asRouterSettings({routes = {}, collections = {}, taxonomies = {}}) {
+    const toRoute = ([path, value]) => {
+        if (typeof value === 'string') {
+            return {path, type: 'template', templates: [value]};
+        }
+        return {type: 'template', templates: [], ...value, path};
+    };
+    const toCollection = ([path, value]) => ({templates: [], ...value, path});
+
     return {
-        routes: Object.entries(routes).map(([path, value]) => ({path, ...value})),
-        collections: Object.entries(collections).map(([path, value]) => ({path, ...value})),
+        routes: Object.entries(routes).map(toRoute),
+        collections: Object.entries(collections).map(toCollection),
         taxonomies: Object.entries(taxonomies).map(([key, permalink]) => ({key, permalink}))
     };
 }
