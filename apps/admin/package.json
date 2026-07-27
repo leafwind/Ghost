@@ -24,7 +24,7 @@
         "@tryghost/koenig-lexical": "workspace:*",
         "@tryghost/nql-lang": "catalog:",
         "@tryghost/shade": "workspace:*",
-        "@xyflow/react": "12.11.1",
+        "@xyflow/react": "12.11.2",
         "dequal": "catalog:",
         "i18n-iso-countries": "7.14.0",
         "mingo": "catalog:",
